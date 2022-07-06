@@ -6,7 +6,7 @@ export default function Profile() {
   return (
     <SafeAreaView>
       <View style={styles.container}>
-        <Image source={{ uri: "https://i.imgur.com/Qu88pd6.jpeg" }} style={{ width: 150, height: 150, borderRadius: 200 / 2 }} />
+        <Image source={{ uri: "https://i.imgur.com/Qu88pd6.jpeg" }} style={{ width: 100, height: 100, borderRadius: 200 / 2 }} />
         <Text style={styles.nameText}>Joko Widodo</Text>
         <Text>087757260044</Text>
       </View>
